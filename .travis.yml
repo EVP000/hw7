@@ -15,3 +15,5 @@ script:
  - python3 hw7.py diabetes.data -H -p bmi weight
  - python3 hw7.py diabetes.data -H -s glu
  - python3 hw7.py diabetes.data -H -i y glu 220
+ - python3 hw7.py diabetes.data -H -i y glu 1000
+ - python3 hw7.py diabetes.data -H -i sex glu .05
