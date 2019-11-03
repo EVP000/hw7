@@ -7,7 +7,8 @@
 #                     --interpolate/-i + 2 columns + 1 x value (eg. -i y glu 300)
 # 
 # <github path - COPY PATH still not working for me ?? 
-# From the navigation line: https://github.com/EVP000/hw6/blob/master/hw6> 
+# From the navigation line: https://github.com/EVP000/hw7/blob/master/hw7.py> 
+# https://travis-ci.org/EVP000/hw7
 
 print('========================================================================================')
 print('========================================================================================')
