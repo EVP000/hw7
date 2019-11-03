@@ -10,5 +10,8 @@ before_install:
  - mv diabetes.rwrite1.txt diabetes.data
 
 script:
- - python3 class_6_plotting_script.py --help
- - python3 class_6_plotting_script.py diabetes.data ' ' -H
+ - python3 hw7.py --help
+ - python3 hw7.py diabetes.data -H
+ - python3 hw7.py diabetes.data -H -p bmi weight
+ - python3 hw7.py diabetes.data -H -s glu
+ - python3 hw7.py diabetes.data -H -i y glu 220
